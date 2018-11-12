@@ -27,21 +27,21 @@
                     <div class="control-group">
                         <label for="telefone" class="control-label">Telefone<span class="required">*</span></label>
                         <div class="controls">
-                            <input id="telefone" type="text" name="telefone" value="<?php echo set_value('telefone'); ?>"  />
+                            <input id="telefone" type="tel" name="telefone" value="<?php echo set_value('telefone'); ?>"  />
                         </div>
                     </div>
 
                     <div class="control-group">
                         <label for="celular" class="control-label">Celular</label>
                         <div class="controls">
-                            <input id="celular" type="text" name="celular" value="<?php echo set_value('celular'); ?>"  />
+                            <input id="celular" type="tel" name="celular" value="<?php echo set_value('celular'); ?>"  />
                         </div>
                     </div>
 
                     <div class="control-group">
                         <label for="email" class="control-label">Email<span class="required">*</span></label>
                         <div class="controls">
-                            <input id="email" type="text" name="email" value="<?php echo set_value('email'); ?>"  />
+                            <input id="email" type="email" name="email" value="<?php echo set_value('email'); ?>"  />
                         </div>
                     </div>
 
@@ -86,9 +86,6 @@
                             <input id="cep" type="text" name="cep" value="<?php echo set_value('cep'); ?>"  />
                         </div>
                     </div>
-
-
-
                     <div class="form-actions">
                         <div class="span12">
                             <div class="span6 offset3">
